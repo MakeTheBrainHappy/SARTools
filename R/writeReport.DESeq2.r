@@ -37,7 +37,7 @@ writeReport.DESeq2 <- function(target, counts, out.DESeq2, summaryResults, majSe
                     output_dir=workDir,
                     intermediates_dir=workDir,
                     knit_root_dir=workDir,
-                    run_pandoc=TRUE,
+                    run_pandoc=FALSE,
                     quiet=TRUE,
                     clean=TRUE)
   cat("HTML report created\n")
